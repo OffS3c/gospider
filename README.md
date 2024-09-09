@@ -45,7 +45,7 @@ bash build.sh
 ## Usage
 
 ```shell
-Fast web spider written in Go - v0.1.0 by @thebl4ckturtle & @j3ssiejjj. Improved by OffS3c.
+Fast web spider written in Go - v0.1.1 by @thebl4ckturtle & @j3ssiejjj. Improved by OffS3c.
 
 Usage:
   gospider [flags]
