@@ -1,4 +1,4 @@
-// module github.com/OffS3c/gospider v2
+module github.com/OffS3c/gospider
 
 go 1.23
 
