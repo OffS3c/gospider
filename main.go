@@ -69,13 +69,7 @@ func main() {
 	}
 }
 
-func run(cmd *cobra.Command, args []string) {
-	if len(args) == 0 {
-		fmt.Printf("[-] No arguments provided. Check usage:\n")
-		Examples()
-		cmd.Help()
-		os.Exit(0)
-	}
+func run(cmd *cobra.Command, _ []string) {
 
 	version, _ := cmd.Flags().GetBool("version")
 	if version {
