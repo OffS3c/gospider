@@ -44,8 +44,6 @@ RUN go mod download
 COPY . .
 
 # Build the Go binaries using Goreleaser
-RUN goreleaser release
-
-# RUN goreleaser release --snapshot # for releasing snapshot builds
+RUN goreleaser release --snapshot
 
 CMD ["sleep", "1"]
