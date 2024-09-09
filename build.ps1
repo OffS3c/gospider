@@ -2,7 +2,7 @@
 Remove-Item -Path 'dist' -Recurse -Force
 
 # Build the Docker image without cache and tag it as 'go-spider-export'
-docker build --no-cache -t go-spider-export .
+docker build -t go-spider-export .
 
 # Run a container from the 'go-spider-export' image
 docker run --name go-spider-export-container go-spider-export
